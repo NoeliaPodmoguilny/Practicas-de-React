@@ -1,0 +1,17 @@
+body{
+    padding: 20px;
+}
+button{
+    margin-right: 10px;
+}
+.arrow-repeat-icon{
+    animation: spin 1s linear infinite; 
+}
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
